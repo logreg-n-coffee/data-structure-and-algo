@@ -1,4 +1,4 @@
-import Node from '../src/data-structure/node';
+import Node from '../../src/data-structure/node';
 
 // Example 1 - instances of the Node class
 // literation: Vanilla -> Berry Tasty -> Coconuts for coconut

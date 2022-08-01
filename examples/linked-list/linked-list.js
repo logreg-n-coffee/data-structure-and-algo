@@ -1,4 +1,4 @@
-import LinkedList from "../src/data-structure/linked-list";
+import LinkedList from "../../src/data-structure/linked-list";
 
 const seasons = new LinkedList();
 
