@@ -6,8 +6,9 @@
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
     "test": "mocha --require @babel/register 'src/**/**spec.js'",
-    "node": "nodemon --exec babel-node examples/node.js",
-    "linked-list": "nodemon --exec babel-node examples/linked-list.js"
+    "node": "nodemon --exec babel-node examples/node/node.js",
+    "linked-list": "nodemon --exec babel-node examples/linked-list/linked-list.js",
+    "swap-nodes": "nodemon --exec babel-node examples/linked-list/swap-nodes.js"
   },
   "keywords": [],
   "author": "",
