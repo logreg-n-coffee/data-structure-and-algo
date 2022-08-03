@@ -10,4 +10,3 @@ for (const i of Array(10).keys()) {
 console.log(list);
 
 list.printValues();
-
