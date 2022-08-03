@@ -9,6 +9,8 @@
     "node": "nodemon --exec babel-node examples/node/node.js",
     "linked-list": "nodemon --exec babel-node examples/linked-list/linked-list.js",
     "swap-nodes": "nodemon --exec babel-node examples/linked-list/swap-nodes.js",
+    "nth-last-element": "nodemon --exec babel-node examples/linked-list/nth-last-element.js",
+    "middle-node": "nodemon --exec babel-node examples/linked-list/middle-node.js",
     "array-based-linked-list": "nodemon --exec babel-node examples/linked-list/array-based-linked-list.js"
   },
   "keywords": [],
