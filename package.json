@@ -13,7 +13,8 @@
     "middle-node": "nodemon --exec babel-node examples/linked-list/middle-node.js",
     "array-based-linked-list": "nodemon --exec babel-node examples/linked-list/array-based-linked-list.js",
     "runway": "nodemon --exec babel-node examples/queue/runway.js",
-    "web-navigator": "babel-node examples/stack/web-navigator"
+    "web-navigator": "babel-node examples/stack/web-navigator.js",
+    "hashmap": "nodemon --exec babel-node examples/hash-map/hash-map.js"
   },
   "keywords": [],
   "author": "",
