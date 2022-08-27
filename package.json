@@ -14,7 +14,8 @@
     "array-based-linked-list": "nodemon --exec babel-node examples/linked-list/array-based-linked-list.js",
     "runway": "nodemon --exec babel-node examples/queue/runway.js",
     "web-navigator": "babel-node examples/stack/web-navigator.js",
-    "hashmap": "nodemon --exec babel-node examples/hash-map/hash-map.js"
+    "hashmap": "nodemon --exec babel-node examples/hash-map/hash-map.js",
+    "pretty-print-tree": "nodemon --exec babel-node examples/tree/pretty-print-tree.js"
   },
   "keywords": [],
   "author": "",
