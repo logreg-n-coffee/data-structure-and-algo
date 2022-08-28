@@ -15,7 +15,9 @@
     "runway": "nodemon --exec babel-node examples/queue/runway.js",
     "web-navigator": "babel-node examples/stack/web-navigator.js",
     "hashmap": "nodemon --exec babel-node examples/hash-map/hash-map.js",
-    "pretty-print-tree": "nodemon --exec babel-node examples/tree/pretty-print-tree.js"
+    "pretty-print-tree": "nodemon --exec babel-node examples/tree/pretty-print-tree.js",
+    "depth-first-tree-traversal": "nodemon --exec babel-node examples/tree/depth-first-tree-traversal.js",
+    "breadth-first-tree-traversal": "nodemon --exec babel-node examples/tree/breadth-first-tree-traversal.js"
   },
   "keywords": [],
   "author": "",

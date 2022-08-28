@@ -1,6 +1,9 @@
-import TreeNode from '../../src/data-structure/tree-node';
+import TreeNode from "../../src/data-structure/tree-node";
 
-const tree = new TreeNode(1);
+// instantiate TreeNode
+const tree = new TreeNode('Root');
+
+// define a random numer
 const randomize = () => Math.floor(Math.random() * 20);
 
 // add first-level children
@@ -24,6 +27,11 @@ for (const i of Array(3).keys()) {
     }
 }
 
+// console.log tree
 console.log(tree);
 
+// pretty print tree
 tree.print();
+
+// depth first traverse tree
+tree.depthFirstTraversal();
