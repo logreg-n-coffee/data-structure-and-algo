@@ -57,7 +57,8 @@ class MinHeap {
     }
 
     heapify() {
-        let current = 1;
+        // heapify begins from the index that always points to the minimum value
+        let current = 1;  // index is 1
         let leftChild = this.getLeft(current);
         let rightChild = this.getRight(current);
 
@@ -78,13 +79,14 @@ class MinHeap {
                 this.swap(current, leftChild);
                 current = leftChild;
             }
-            // update the left and right children based on the new parent 
+            // inside the while loop, update the left and right children based on the new parent 
+            // this will prevent indefinite loops
             leftChild = this.getLeft(current);
             rightChild = this.getRight(current);
         }
     }
 
-    swap(a, b) {
+    swap(a, b) {  // a and b are indexes
         [this.heap[a], this.heap[b]] = [this.heap[b], this.heap[a]];
     }
 
