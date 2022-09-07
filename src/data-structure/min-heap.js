@@ -3,7 +3,7 @@
 
 class MinHeap {
     constructor() {
-        this.heap = [null];
+        this.heap = [null];  // null stands for a guardian element
         this.size = 0;
     }
 
@@ -43,10 +43,17 @@ class MinHeap {
     }
 
     bubbleUp() {
-        let current = this.size;
-        while (current > 1 && this.heap[this.getParent(current)] > this.heap[current]) {
-            this.swap(current, this.getParent(current));
-        }
+      // Set the current element index to be the last index of heap
+      let current = this.size;
+      while (
+        // While current element is valid and its value is less than its parent's value
+        current > 1 &&
+        this.heap[this.getParent(current)] > this.heap[current]
+      ) {
+        // Swap the indexes and update the current element index to be its parent index
+        this.swap(current, this.getParent(current));
+        current = this.getParent(current);
+      }
     }
 
     heapify() {
@@ -92,7 +99,6 @@ class MinHeap {
             this.exists(rightChild) && this.heap[current] > this.heap[rightChild]
         );
     }
-
 
 }
 
