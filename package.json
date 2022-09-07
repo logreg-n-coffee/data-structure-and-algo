@@ -17,7 +17,8 @@
     "hashmap": "nodemon --exec babel-node examples/hash-map/hash-map.js",
     "pretty-print-tree": "nodemon --exec babel-node examples/tree/pretty-print-tree.js",
     "depth-first-tree-traversal": "nodemon --exec babel-node examples/tree/depth-first-tree-traversal.js",
-    "breadth-first-tree-traversal": "nodemon --exec babel-node examples/tree/breadth-first-tree-traversal.js"
+    "breadth-first-tree-traversal": "nodemon --exec babel-node examples/tree/breadth-first-tree-traversal.js",
+    "remove-min-value": "nodemon --exec babel-node examples/heap/remove-min-value.js"
   },
   "keywords": [],
   "author": "",
