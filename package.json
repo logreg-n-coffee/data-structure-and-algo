@@ -18,7 +18,8 @@
     "pretty-print-tree": "nodemon --exec babel-node examples/tree/pretty-print-tree.js",
     "depth-first-tree-traversal": "nodemon --exec babel-node examples/tree/depth-first-tree-traversal.js",
     "breadth-first-tree-traversal": "nodemon --exec babel-node examples/tree/breadth-first-tree-traversal.js",
-    "remove-min-value": "nodemon --exec babel-node examples/heap/remove-min-value.js"
+    "remove-min-value": "nodemon --exec babel-node examples/heap/remove-min-value.js",
+    "train-network": "nodemon --exec babel-node examples/graph/train-network.js"
   },
   "keywords": [],
   "author": "",
