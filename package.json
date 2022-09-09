@@ -19,7 +19,9 @@
     "depth-first-tree-traversal": "nodemon --exec babel-node examples/tree/depth-first-tree-traversal.js",
     "breadth-first-tree-traversal": "nodemon --exec babel-node examples/tree/breadth-first-tree-traversal.js",
     "remove-min-value": "nodemon --exec babel-node examples/heap/remove-min-value.js",
-    "train-network": "nodemon --exec babel-node examples/graph/train-network.js"
+    "train-network": "nodemon --exec babel-node examples/graph/train-network.js",
+    "factorial": "nodemon --exec babel-node src/algo/recursion/factorial.js",
+    "find-node-recursively": "nodemon --exec babel-node src/algo/recursion/find-node-recursively.js"
   },
   "keywords": [],
   "author": "",
