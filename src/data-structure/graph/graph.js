@@ -22,8 +22,10 @@ class Graph {
     const edgeWeight = this.isWeighted ? weight : null;
 
     if (vertexOne instanceof Vertex && vertexTwo instanceof Vertex) {
-      vertexOne.addEdge(vertexTwo, edgeWeight);
-
+        
+      vertexOne.addEdge(vertexTwo, edgeWeight);  // single way if the graph is directed
+    
+      // both ways if the graph is not directed, add another edge
       if (!this.isDirected) {
         vertexTwo.addEdge(vertexOne, edgeWeight);
       }

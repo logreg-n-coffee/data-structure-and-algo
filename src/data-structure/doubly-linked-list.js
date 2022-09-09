@@ -92,3 +92,5 @@ class DoublyLinkedList {
     console.log(output);
   }
 }
+
+export default DoublyLinkedList;

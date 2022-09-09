@@ -1,12 +1,15 @@
 // define the Node class
 
 export default class Node {
-  constructor(data) {
+  constructor(data, prevOn = false) {
     // data stores the data for this node
     // next points to the next node; default value is null
     this.data = data;
     this.next = null;
-    this.previous = null;
+    if (prevOn) {
+      this.previous = null;
+      this.prevOn = prevOn;
+    }
   }
 
   setNextNode(node) {
@@ -17,11 +20,15 @@ export default class Node {
     }
   }
 
-  setPrevNode (node) {
-    if (node instanceof Node || node === null) {
-      this.prev = node;
+  setPrevNode(node) {
+    if (this.prevOn) {
+      if (node instanceof Node || node === null) {
+        this.prev = node;
+      } else {
+        throw new Error("Next node must be a member of the Node class.");
+      }
     } else {
-      throw new Error("Next node must be a member of the Node class.");
+      throw new Error('Must be a double-linked list to setPrevNode');
     }
   }
 

@@ -1,6 +1,6 @@
 import Node from './node';
 
-export default class LinkedList {
+class LinkedList {
   // The last node, or tail, of the list will point to null.
   constructor() {
     // set the default head to null - linked list only keeps track of the head
@@ -58,3 +58,5 @@ export default class LinkedList {
     console.log(output);
   }
 }
+
+export default LinkedList;
