@@ -21,7 +21,10 @@
     "remove-min-value": "nodemon --exec babel-node examples/heap/remove-min-value.js",
     "train-network": "nodemon --exec babel-node examples/graph/train-network.js",
     "factorial": "nodemon --exec babel-node src/algo/recursion/factorial.js",
-    "find-node-recursively": "nodemon --exec babel-node src/algo/recursion/find-node-recursively.js"
+    "find-node-recursively": "nodemon --exec babel-node src/algo/recursion/find-node-recursively.js",
+    "divide-by-two": "nodemon --exec babel-node src/algo/asymptotic-notation/divide-by-two.js",
+    "find-max-in-a-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/find-max-in-a-linked-list",
+    "sort-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/sort-linked-list.js"
   },
   "keywords": [],
   "author": "",
