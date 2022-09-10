@@ -35,6 +35,25 @@ class LinkedList {
     }
   }
 
+  remove(data) {
+    if (this.head === null) {
+      return null;
+    }
+    if (this.head.data === data) {
+      this.removeHead();
+    } else {
+      let prev = this.head;
+      while (prev.next && prev.next.data !== data) {
+        prev = prev.next;
+      }
+      if (prev.next) {
+        let removedNode = prev.next;
+        prev.next = removedNode.next;
+        return removedNode.data;
+      }
+    }
+  }
+
   removeHead() {
     const removedHead = this.head;
     // if removedHead has no value
