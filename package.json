@@ -24,7 +24,8 @@
     "find-node-recursively": "nodemon --exec babel-node src/algo/recursion/find-node-recursively.js",
     "divide-by-two": "nodemon --exec babel-node src/algo/asymptotic-notation/divide-by-two.js",
     "find-max-in-a-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/find-max-in-a-linked-list",
-    "sort-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/sort-linked-list.js"
+    "sort-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/sort-linked-list.js",
+    "bubble-sort": "nodemon --exec babel-node src/algo/sorting/bubble-sort.js"
   },
   "keywords": [],
   "author": "",
