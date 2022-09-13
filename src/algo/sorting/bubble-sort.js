@@ -51,7 +51,7 @@ const bubbleSortAscending = input => {
 
 // testing
 
-const arr1 = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+const arr1 = [9, 8, 7, 6, 5, 4, 3, 2, 1];  // ordered array in descending order - number of swaps: C(n, 2) = n(n-1) / 2 
 console.log("before sorting", arr1);
 bubbleSortAscending(arr1);
 console.log("after sorting", arr1);
