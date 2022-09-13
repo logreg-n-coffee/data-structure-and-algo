@@ -4,11 +4,14 @@
 const isArray = obj => obj.constructor.name == 'Array';
 
 // array swap
-const swap = (arr, indexOne, indexTwo) => {
-    const temp = arr[indexTwo];
-    arr[indexTwo] = arr[indexOne];
-    arr[indexOne] = temp;
-};
+// const swap = (arr, indexOne, indexTwo) => {
+//     const temp = arr[indexTwo];
+//     arr[indexTwo] = arr[indexOne];
+//     arr[indexOne] = temp;
+// };
+
+// swap will also return the swapped values in a two-element array
+const swap = (array, indexOne, indexTwo) => [array[indexOne], array[indexTwo]] = [array[indexTwo], array[indexOne]];
 
 // bubble sort
 const bubbleSortAscending = input => {
