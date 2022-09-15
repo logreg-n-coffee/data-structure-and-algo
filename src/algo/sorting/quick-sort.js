@@ -9,7 +9,7 @@
 
 // swap helper function
 const swap = (array, indexOne, indexTwo) =>
-  ([array[indexOne], array[indexTwo]] = [array[indexTwo], arrayIndex[One]]);
+  ([array[indexOne], array[indexTwo]] = [array[indexTwo], array[indexOne]]);
 
 // partition
 const partition = (array, leftIndex, rightIndex) => {
@@ -44,3 +44,21 @@ const quicksort = (array, leftBound = 0, rightBound = array.length - 1) => {
         return array;
     }
 };
+
+// Test the algorithm
+const randomize = () => Math.floor(Math.random() * 40);
+
+let numbers = [];
+
+for (let i = 0; i < 5; i++) {
+  numbers.push(randomize());
+}
+
+console.log("Before quicksort:", numbers);
+const sorted = quicksort(numbers);
+console.log("After  quicksort:", sorted);
+
+
+// Time Complexity
+// Quicksort average time complexity is O(n * log(n)) given the left partition and right partition is splitted evenly 
+// In the worst case, the time complexity can reach O(n^2) if the left partition only contains one element in each partitioning

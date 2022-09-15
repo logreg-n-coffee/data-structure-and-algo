@@ -25,7 +25,10 @@
     "divide-by-two": "nodemon --exec babel-node src/algo/asymptotic-notation/divide-by-two.js",
     "find-max-in-a-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/find-max-in-a-linked-list",
     "sort-linked-list": "nodemon --exec babel-node src/algo/asymptotic-notation/sort-linked-list.js",
-    "bubble-sort": "nodemon --exec babel-node src/algo/sorting/bubble-sort.js"
+    "bubble-sort": "nodemon --exec babel-node src/algo/sorting/bubble-sort.js",
+    "quick-sort": "nodemon --exec babel-node src/algo/sorting/quick-sort.js",
+    "quick-sort-verbose": "nodemon --exec babel-node src/algo/sorting/quick-sort-verbose.js",
+    "quick-sort-descending": "nodemon --exec babel-node src/algo/sorting/quick-sort-descending.js"
   },
   "keywords": [],
   "author": "",
