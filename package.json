@@ -28,7 +28,8 @@
     "bubble-sort": "nodemon --exec babel-node src/algo/sorting/bubble-sort.js",
     "quick-sort": "nodemon --exec babel-node src/algo/sorting/quick-sort.js",
     "quick-sort-verbose": "nodemon --exec babel-node src/algo/sorting/quick-sort-verbose.js",
-    "quick-sort-descending": "nodemon --exec babel-node src/algo/sorting/quick-sort-descending.js"
+    "quick-sort-descending": "nodemon --exec babel-node src/algo/sorting/quick-sort-descending.js",
+    "binary-search": "nodemon --exec babel-node src/algo/search/binary-search.js"
   },
   "keywords": [],
   "author": "",
