@@ -30,7 +30,9 @@
     "quick-sort-verbose": "nodemon --exec babel-node src/algo/sorting/quick-sort-verbose.js",
     "quick-sort-descending": "nodemon --exec babel-node src/algo/sorting/quick-sort-descending.js",
     "binary-search": "nodemon --exec babel-node src/algo/search/binary-search.js",
-    "binary-search-tree-traversal": "nodemon --exec babel-node examples/binary-search-tree/binary-search-tree-traversal.js"
+    "binary-search-tree-traversal": "nodemon --exec babel-node examples/binary-search-tree/binary-search-tree-traversal.js",
+    "depth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/depth-first-traversal.js",
+    "breadth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/breadth-first-traversal.js"
   },
   "keywords": [],
   "author": "",
