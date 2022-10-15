@@ -32,7 +32,9 @@
     "binary-search": "nodemon --exec babel-node src/algo/search/binary-search.js",
     "binary-search-tree-traversal": "nodemon --exec babel-node examples/binary-search-tree/binary-search-tree-traversal.js",
     "depth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/depth-first-traversal.js",
-    "breadth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/breadth-first-traversal.js"
+    "breadth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/breadth-first-traversal.js",
+    "sieve-of-eratosthenes": "nodemon --exec babel-node src/algo/math/sieve-of-eratosthenes.js",
+    "prime-number": "nodemon --exec babel-node src/algo/math/prime-number.js"
   },
   "keywords": [],
   "author": "",
