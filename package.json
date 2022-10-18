@@ -34,7 +34,8 @@
     "depth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/depth-first-traversal.js",
     "breadth-first-graph-traversal": "nodemon --exec babel-node src/algo/graph-traversal/breadth-first-traversal.js",
     "sieve-of-eratosthenes": "nodemon --exec babel-node src/algo/math/sieve-of-eratosthenes.js",
-    "prime-number": "nodemon --exec babel-node src/algo/math/prime-number.js"
+    "prime-number": "nodemon --exec babel-node src/algo/math/prime-number.js",
+    "capturing-rainwater": "nodemon --exec babel-node src/algo/math/capturing-rainwater.js"
   },
   "keywords": [],
   "author": "",
